@@ -11,3 +11,7 @@ i
 9app/src/main/java/com/example/fragmentdeneme/Fragment2.kt,0\8\082839aabb75f99596ee63dd98c5312f3def7eec
 g
 7app/src/main/java/com/example/fragmentdeneme/Urunler.kt,2\6\26ab7aa92dc90f21dcd5ce7127439aa29da2a1cb
+i
+9app/src/main/java/com/example/fragmentdeneme/Fragment3.kt,c\5\c5a4e41d449d38e0b8d8f2397a5eb0e157267074
+o
+?app/src/main/java/com/example/fragmentdeneme/AyarlarFragment.kt,6\0\60c0ba9ad29109499f9cafde322c12dee798627f
