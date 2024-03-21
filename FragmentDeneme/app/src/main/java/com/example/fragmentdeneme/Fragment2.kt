@@ -7,7 +7,6 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.activity.OnBackPressedCallback
 import androidx.navigation.fragment.navArgs
-import com.example.fragmentdeneme.databinding.Fragment1Binding
 import com.example.fragmentdeneme.databinding.Fragment2Binding
 import com.google.android.material.snackbar.Snackbar
 

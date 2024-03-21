@@ -8,7 +8,6 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.Navigation
 import com.example.fragmentdeneme.databinding.Fragment1Binding
-import com.google.android.material.snackbar.Snackbar
 
 class Fragment1 : Fragment() {
     private lateinit var binding: Fragment1Binding
@@ -25,6 +24,11 @@ class Fragment1 : Fragment() {
             val gecis=Fragment1Directions.actionFragment1ToFragment2(urun=urun,ad="Ahmet", yas = 23,boy= 1.78f, bekar = false)
             Navigation.findNavController(it).navigate(gecis)
         }
+
+        binding.buttonGoster.setOnClickListener {
+            Navigation.findNavController(it).navigate(R.id.bottomSheetGecis)
+        }
+
         return binding.root
     }
 
